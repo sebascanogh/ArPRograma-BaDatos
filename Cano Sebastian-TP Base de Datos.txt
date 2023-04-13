@@ -1,0 +1,30 @@
+/*create database qatar2022
+create table empleados (idE int not null auto_increment, dniE varchar(12) not null, nomE varchar (25) not null, 
+apeE varchar(25) not null, nacE char(20) , dpto char(15), primary key (idE));*/
+/*create table departamentos(idD int not null auto_increment, nomD varchar(15) not null ,descD varchar(30) ,presupuesto decimal(12.2),
+primary key (idD));
+insert into departamentos(idD,nomD,descD, presupuesto)
+value (idD,'Logistica', 'Dpto Logistica y rutas', '15000000'),
+	  (idD,'Sistemas','Dpto sistemas, redes, campus', '25000000'),
+      (idD,'Compras','Dpto compras, suministros, mat', '5000000')*/
+
+/*insert into empleados(idE,dniE,nomE,apeE,nacE,dpto)
+values  (idE, '41645480', 'Sebastian', 'Cano', 'Argentino', 'Sistemas'),
+		(idE, '42645980', 'Mario', 'Cano', 'Brasil', 'Logistica'),
+        (idE, '41446485', 'Matias', 'Cano', 'Uruguay', 'Logistica'),
+        (idE, '42445425', 'Cristian', 'Cano', 'Colombia', 'Logistica')
+        --punto 5
+update empleados
+set dniE = '33556979', nomE= 'Roberto', apeE= 'Gomez', nacE='Perú', dpto='Logistica' 
+where idE=1;
+-punto 6
+delete from departamentos
+where idD= 5;
+        select * from departamentos
+	--punto 7
+	select * from empleados
+    where dpto = 'Logistica'
+    --punto8
+    select idD, nomD, presupuesto
+    from departamentos
+    order by nomD desc*/
